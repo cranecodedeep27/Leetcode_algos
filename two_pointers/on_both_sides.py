@@ -2,7 +2,7 @@ def two_sum(nums: list[int], target: int) -> list[int]:
     # Инициализация
     l = 0
     r = len(nums) - 1
-    
+    # рабочий цикл while
     while l < r:
         # Логика движения указателей
         curr_sum = nums[l] + nums[r]
