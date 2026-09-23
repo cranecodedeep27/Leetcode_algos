@@ -17,4 +17,4 @@ print(is_palindrome_permutations("abddab"))
 print(is_palindrome_permutations("absqqs"))
 
 # Время: O(n)
-# Память: O(k)
+# Память: O(k) k - количество разных символов
